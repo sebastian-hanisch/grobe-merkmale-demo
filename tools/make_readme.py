@@ -146,7 +146,7 @@ def build() -> str:
     add("<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):")
     add("**[→ Demo live ausprobieren](https://sebastianhanisch-grobe-merkmale-demo.streamlit.app/)** -->")
     add("")
-    add("Fall-Demo für die Website „Sebastian Hanisch – Operations Research und Machine Learning“ (Entscheidungsanalyse und Machine Learning). Aus den **dokumentierten Merkmalen** (Symptomen) eines Patienten wird eine Rangliste "
+    add("Konzepte-Demo für die Website „Sebastian Hanisch – Operations Research und Machine Learning“, Teil der Konzepte-Linie „Erkennen unter Unsicherheit“ (`konzepte-erkennen-unsicherheit.html`). Aus den **dokumentierten Merkmalen** (Symptomen) eines Patienten wird eine Rangliste "
         "möglicher **seltener Krankheiten** erstellt, wenn ein Teil der Merkmale in der Akte nur als **Oberbegriff** steht (zum Beispiel „Augenauffälligkeit“ statt des genauen Befunds). "
         "Die Demo vergleicht fünf Ranker: den **exakten** Ranker, der die Regeln des Erzeugers dieser Welt kennt (das **Orakel**), einen Ranker, der die Oberbegriffe **überliest**, "
         "die Heuristik **„Oberbegriff = alle Kinder“**, einen **Resnik-artigen** Ähnlichkeitswert (eigene Fassung) und ein **naives Überlesen**, das u nicht kennt. Gemessen wird, was das Überlesen kostet und wie viel davon die Heuristik und der Ähnlichkeitswert zurückholen.")
@@ -378,7 +378,7 @@ def build() -> str:
     add("---")
     add("")
     add("Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). "
-        "Mehr zu den Demos: [Interaktive Demos](https://sebastianhanisch.net/demos.html).")
+        "Mehr zur Reihe: [Erkennen unter Unsicherheit: Hinweis und Ursache](https://sebastianhanisch.net/konzepte-erkennen-unsicherheit.html).")
     return "\n".join(L) + "\n"
 
 
